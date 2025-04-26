@@ -11,19 +11,19 @@ public class Aluno {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
-    private Long idAluno;
+    private Long Id;
 
     private String nomeAluno;
     private String emailAluno;
     private String telefoneAluno;
 
     // Getters e Setters
-    public Long getIdAluno() {
-        return idAluno;
+    public Long getId() {
+        return Id;
     }
 
-    public void setIdAluno(Long idAluno) {
-        this.idAluno = idAluno;
+    public void setId(Long id) {
+        this.Id = id;
     }
 
     public String getNomeAluno() {
