@@ -7,9 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 const tr = document.createElement('tr');
 
                 tr.innerHTML = `
-            <td>${aluno.nome}</td>
-            <td>${aluno.email}</td>
-            <td>${aluno.telefone}</td>
+            <td>${aluno.nomeAluno}</td>
+            <td>${aluno.emailAluno}</td>
+            <td>${aluno.telefoneAluno}</td>
           `;
 
                 tbody.appendChild(tr);
