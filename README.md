@@ -11,9 +11,9 @@ O projeto será bem direto, contendo:
 - Service (opcionalmente separada para organização)
 
 ## Estrutura de diretórios:
-scr/main/java/
+src/main/java/
 └── com/senai/escola/
-    ├──`Aluno.java`
-    ├──`AlunoRepository.java`
-    ├──`AlunoService.java`
-    ├──`AlunoController.java`
+    ├── Aluno.java
+    ├── AlunoRepository.java
+    ├── AlunoService.java
+    └── AlunoController.java
